@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    double x, y;
+    printf("x= "); scanf("%lf", &x);
+    printf("y= "); scanf("%lf", &y);
+
+
+
+    if (x>=0.0 && y>=0.0 && y<((-2.0)*x)+2.0) printf("принадлежит");
+    else printf("не принадлежит1");
+
+    return 0;
+
+}
